@@ -3,7 +3,7 @@
 This repository contains the code and models for the following paper:
 
 
-**[Technical Report of the DAISY System - Shooter Localization, Models, Interface, and Beyond]()** 
+**[Technical Report of the DAISY System - Shooter Localization, Models, Interface, and Beyond]()** \
 [Junwei Liang](https://www.cs.cmu.edu/~junweil/),
 [Alexander Hauptmann](https://www.cs.cmu.edu/~alex/)
 
