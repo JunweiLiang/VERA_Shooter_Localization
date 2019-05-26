@@ -1,0 +1,141 @@
+a:2:{i:0;a:2:{i:0;s:6854:"<style type='text/css'>
+	#vt > div.wrap{margin:0 auto}
+	#vt > div.wrap > ul{margin:0;padding:5px}
+	#vt > div.wrap > ul > li > a{color:rgb(140,0,0)}
+	#vt > div.wrap > div.left{float:left;width:700px;padding-top:10px}
+	#vt > div.wrap > div.left > div.textDiv{background-color:white;}
+	#vt > div.wrap > div.left > div.textDiv > div.textTitle{border-bottom:1px solid #F5D8DB;padding:10px}
+	#vt > div.wrap > div.left > div.textDiv > div.textTitle >  div.shareButton{}
+	#vt > div.wrap > div.left > div.textDiv > div.textTitle > div.shareButton > div{}
+	#vt > div.wrap > div.left > div.textDiv > div.textTitle > h2{margin:0}
+	#vt > div.wrap > div.left > div.textDiv > div.textContent{padding:10px}
+	/*temporary*/
+	/*vt need min-height for short text*/
+	#vt{
+		height:auto!important;
+		height:500px;/*div.right's height,the padding and stuff*/
+		min-height:500px;
+	}
+	#vt div.right{height:850px;margin:0 0 0 730px;width:250px;padding-top:10px}
+	#vt div.rightCol{background-color:white}
+	
+	
+	
+</style>
+<div id='vt'>	
+	<div class='wrap'>
+		<ul class="breadcrumb">
+			  <li><a href="/dasai">首页</a> <span class="divider">/</span></li>
+			  <li><a href="/dasai/index.php/site/view?id=1">计算机设计大赛</a>
+		</ul>
+		<div class='left'>
+			<div class='textDiv'>
+				<div class='textTitle'>
+					
+					<h2>大赛简介					</h2>
+																<h5>作者: 管理</h5>
+										<div class='shareButton'>
+					<div class="bshare-custom"><div class="bsPromo bsPromo2"></div><a title="分享到" href="http://www.bShare.cn/" id="bshare-shareto" class="bshare-more">分享到</a><a title="分享到新浪微博" class="bshare-sinaminiblog">新浪微博</a><a title="分享到微信" class="bshare-weixin" href="javascript:void(0);">微信</a><a title="分享到人人网" class="bshare-renren">人人网</a><a title="分享到Reddit" class="bshare-reddit" href="javascript:void(0);">Reddit</a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: none;">20.1K</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=9865c9ef-e7d9-4694-bf58-ebe0574fe2b2&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+					</div>
+					
+				</div>
+				<div class='textContent'>
+					<p>这是一篇大赛简介</p>
+				</div>
+			</div>
+		</div>
+		<div class='right'>
+			<div class="rightCol">
+				<style type='text/css'>
+	#textList{}
+	#textList > div.cataTitle{padding:0 5px}
+	#textList > div.cataTitle > a > div.titleText{color:rgb(140,0,0);font-size:16px;border-bottom:1px solid red;padding:10px 10px 0 10px}
+	#textList a{text-decoration:none}
+	#textList > div.textListDiv{padding:0px;}
+			#textList > div.textListDiv{padding:0px}
+		#textList > div.textListDiv > div.sBlock{padding:7px;}
+		#textList > div.textListDiv > div.sBlock > a.sText{text-decoration:none;color:black}
+	#textList > div.textListDiv > div.sBlock > a.sText:hover{color:rgb(8,66,84)}
+	#textList > div.textListDiv > div.sBlock > div.date{float:right;}
+	#textList > div.textListDiv > div.viewMore{background-color:rgb(8,46,84);color:white;cursor:pointer}
+	#textList > div.textListDiv > div.listBlock{border-top:1px silver solid;margin:0px 0 30px 0}
+	#textList > div.textListDiv > div.listBlock > div.blockLeft{
+		float:left;
+		width:200px;
+	}
+	#textList > div.textListDiv > div.listBlock > div.blockLeft > div.blockImgDiv{position:relative;height:150px;overflow:hidden;}
+	#textList > div.textListDiv > div.listBlock > div.blockLeft > div.blockImgDiv > div.imgReplace{position:absolute;top:50px;left:50px;font-size:25px;color:rgb(8,66,84);line-height:30px;font-weight:bold}
+	#textList > div.textListDiv > div.listBlock > div.blockLeft > div.blockImgDiv > a > img.textTitleImg{height:150px;width:200px}
+	#textList > div.textListDiv > div.listBlock > div.blockRight{
+		margin:0 0 0 200px;padding:20px;
+		height:auto!important;  
+		height:150px;  
+		min-height:150px; 
+	}
+	#textList > div.textListDiv > div.listBlock > div.blockRight > div.line{line-height:25px}
+	#textList > div.textListDiv > div.listBlock > div.blockRight > div.line > a.textTitle{font-size:18px;color:rgb(8,46,84);font-weight:bold}
+	#textList > div.textListDiv > div.listBlock > div.blockRight > div.line > a.textTitle:hover{color:rgb(8,66,84)}
+	#textList > div.textListDiv > div.listBlock > div.blockRight > div.line > a.textEditTime{font-size:12px;color:gray}
+	#textList > div.textListDiv > div.listBlock > div.blockRight > div.line > a.textActInfo{font-size:12px;color:#0088cc}
+	#textList > div.textListDiv > div.listBlock > div.blockRight > div.line > a.textIntro{font-size:14px;color:black}
+</style>
+<script type='text/javascript'>
+	//页面载入就取数据
+	$(document).ready(function(){
+		textListgetSiteTextList(2,0,7);
+	});
+	//定义查看更多按钮动作，
+	$(document).delegate("#textList > div.textListDiv > div.viewMore",'click',function(){
+		var textNum = $(this).children("div.wrapLoading").attr("id");
+		if(textNum == null || textNum == '')
+		{
+			alert('shit!');
+			return;
+		}
+		textListgetSiteTextList(2,textNum,7);
+	});
+function textListgetSiteTextList(catalogId,startId,getNum)
+{
+		//alert('hi');
+	var data = {};
+	data.catalogId = catalogId;
+	data.startId = startId;
+	data.getNum = getNum;
+	//变查看更多为'loading'
+	$('#textList > div.textListDiv > div.viewMore').replaceWith("<div class='wrapLoading'><div class='loading'></div></div>");
+	$.post("/dasai/index.php/siteWidget/textList",data,function(result){
+		//alert(result);
+		$('#textList > div.textListDiv > div.wrapLoading').remove();
+		$.each(result,function(index,item){
+							if(index % 2 == 0)
+				{
+					var tempBlock = $("<div class='sBlock even'>"+
+						"<a class='sText' href='/dasai/index.php/site/viewText?id="+item.textId+"&checkId="+item.checkId+"'>"+item.textTitle+"</a>"+
+											"</div>");
+				}
+				else
+				{
+					var tempBlock = $("<div class='sBlock odd'>"+
+						"<a class='sText' href='/dasai/index.php/site/viewText?id="+item.textId+"&checkId="+item.checkId+"'>"+item.textTitle+"</a>"+
+											"</div>");				
+				}
+			tempBlock.appendTo("#textList > div.textListDiv");
+					});
+			},'json');
+}
+</script>
+<div id="textList">
+			<div class='cataTitle'><a href='/dasai/index.php/site/view?id=2'><div class='titleText'>大赛新闻</div></a></div>
+		<input type='hidden'></input>
+	<div class='textListDiv'><div class='viewMore'><div class='wrapLoading'>查看更多</div></div>
+		<!--<div class='wrapLoading'><div class='loading'></div></div>-->
+		
+	</div>
+</div>  				
+	   			
+   			</div>
+		</div>
+	<div style='clear:both'></div>
+	</div>
+</div>
+";i:1;N;}i:1;N;}

@@ -1,0 +1,715 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+}
+
+img, video { display: block; }
+
+#head {
+    position: relative;
+    width: 100%;
+    min-height: 90px;
+}
+
+header#mainL {
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 25px;
+    width: 50%;
+}
+
+header#mainR {
+    float: right;
+    top: 35px;
+    right: 5px;
+    position: absolute;
+    text-align: right;
+}
+
+#proto {
+    font-size: 10pt;
+}
+
+header#sub {
+    text-align: right;
+    position: relative;
+    width: 100%;
+    font-size: 16pt;
+}
+
+header nav {
+    position: relative;
+    padding-right: 5px;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    width: 75%;
+    font-size: 14pt;
+}
+
+#docui {
+    width: 600px;
+    border: 1px solid #666;
+}
+
+#demovid {
+    border: 1px solid #666;
+    width: 800px;
+}
+
+#titlebar {
+    width: 100%;
+    position: relative;
+    background: #999;
+    height: 25px;
+}
+
+.photothumb {
+    position: relative;
+    top: 0;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.mover {
+    font-size: 14pt;
+    position: absolute;
+    top: -18px;
+    cursor: pointer;
+    color: white;
+}
+
+#selection {
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: rgba(50,50,255,0.5);
+    cursor: default;
+    border-left: 4px solid rgba(230,70,70,0.7);
+    border-right: 4px solid rgba(230,70,70,0.7);
+}
+
+a.but, a.but:link, a.but:visited {
+    text-decoration: none;
+    background: #e3e3e3;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+    -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+    box-shadow: inset 0 0 1px 1px #f6f6f6;
+    color: #333;
+    font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
+    line-height: 1;
+    padding: 3px 5px;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 150px;
+}
+
+a.but:hover {
+    background: #7d7;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    -moz-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer;
+}
+
+#fullscreen {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 9000;
+    display: none;
+}
+
+#fsvidholder {
+    top: 5%;
+    position: absolute;
+    height: 90%;
+}
+
+#xbox {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20pt;
+    z-index: 10000;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#fsvid {
+    position: absolute;
+    height: 100%;
+    border: 1px solid #333;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+}
+
+.close {
+    top: 0px;
+    float: right;
+}
+
+#signin {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 9pt;
+    color: #aaa;
+    cursor: pointer;
+}
+
+#project {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000;
+}
+
+.projectsub, .projectsub a, .projectsub a:hover, .projectsub a:visited {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-shadow: 0 -1px 1px #000;
+}
+
+#tlinfo {
+    color: #333;
+    background: #ddd;
+}
+
+#timelines {
+    width: 100%;
+}
+
+.mediaSection h1 {
+    background: #333;
+    color: #eee;
+    cursor: pointer;
+    margin: 0;
+}
+
+.ui-draggable { cursor: pointer; }
+
+
+
+#pholines { display: none;}
+
+.event {
+    position: absolute;
+    top: 0;
+    height: 25px;
+    width: 3px;
+    cursor: pointer;
+}
+
+.dot {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+}
+
+.beam {
+    position: absolute;
+    height: 25px;
+    opacity: 0.3;
+}
+
+#videoswrapper {
+    position: relative;
+    width: 100%;
+    background: #aaa;
+}
+
+.pager {
+    visibility: hidden;
+    position: relative;
+    background: #c8c8c8;
+    width: 40px;
+    height: 17px;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pagerAppear {
+    position: relative;
+    background: #c8c8c8;
+    width: 40px;
+    height: 17px;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pagerDisappear {
+    visibility: hidden;
+}
+
+.vidline, .pholine {
+    position: relative;
+    border-bottom: 1px solid #aaa;
+    height: 20px;
+    width: 100%;
+    background: #bbb;
+}
+
+.odd {;
+}
+
+.even {;
+}
+
+.vidnum, .phonum {
+    position: relative;
+    background: #c8c8c8;
+    color: black;
+    font-size: 20px;
+    width: 40px;
+    height: 20px;
+    -o-transition: background 0.6s linear;
+    -moz-transition: background 0.6s linear;
+    -ms-transition: background 0.6s linear;
+    -webkit-transition: background 0.6s linear;
+    transition: background 0.6s linear;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    z-index: 50;
+}
+
+.lockBox {
+    float: left;
+    height: 100%;
+    background: #666;
+    color: black;
+    padding-left: 3px;
+    width: 20px;
+    text-align: center;
+}
+
+.locker{
+    cursor: pointer;
+}
+
+.audbuttons {
+    height: 100%;
+    margin: 0;
+    background: #999;
+    float: left;
+   
+}
+
+.offsetBox {
+    height: 100%;
+    margin: 0;
+    background: #999;
+    float: left;
+}
+
+.offsetInput {
+    width: 45px;
+}
+
+.pinBox {
+    height: 100%;
+    margin: 0;
+    background: #999;
+    float: left;
+}
+
+.vidmeta, .phometa {
+    z-index: 99;
+    position: absolute;
+    left: 43px;
+    opacity: 0;
+    margin-left: 3px;
+    background: #ddd;
+    font-size: 7pt;
+    line-height: 0.4em;
+    text-align: center;
+    float: left;
+    width: 100px;
+    -o-transition: opacity 0.1s linear;
+    -moz-transition: opacity 0.1s linear;
+    -webkit-transition: opacity 0.1s linear;
+    -ms-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+    cursor: default;
+}
+
+.timeline {
+    position: absolute;
+    left: 180px;
+    right: 0;
+    font-size: 18pt;
+    height: 100%;
+}
+
+.vidtl {
+    position: absolute;
+    top: 0;
+    left: 180px;
+    right: 0;
+    font-size: 18pt;
+    height: 100%;
+    cursor: crosshair;
+}
+
+.vidmeta:hover {
+    opacity: 1;
+}
+
+.vidactive {
+    background: #0c0;
+}
+
+.vidinactive {
+    background: rgba(230,0,0,0.5);
+}
+
+.vidtime, .photime {
+
+    position: relative;
+    
+    height: 100%;
+    background: #ececec;
+    z-index: 99;
+}
+
+.moveTransition{
+    -webkit-transition: all 555ms linear;
+    -moz-transition: all 555ms linear;
+    -ms-transition: all 555ms linear;
+    -o-transition: all 555ms linear;
+    transition: all 555ms linear;
+
+}
+
+#vselector {
+    margin-left: 3px;
+    background: #c8c8c8;
+    width: 100%;
+    height: 100%;
+}
+
+.baractive {
+    right: 0;
+    overflow: hidden;
+}
+
+#videos {
+    position: relative;
+    width: 100%;
+    /*background: black;*/
+    font-size: 9pt;
+    color: black;
+    min-height: 320px;
+    margin-top: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    height: 280px;
+    float: left;
+    display: none;
+}
+
+.innervid{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.hor {
+    width: 100%;
+}
+
+.vert {
+    height: 320px;
+}
+.audbutton { height: 15px; display: inline-block; vertical-align: top; cursor: pointer;}
+.audactive { border-bottom: 3px solid black; }
+.audsolomute { border-bottom: 3px solid rgba(0,0,0,0.3); }
+.tbuttons {
+    position: absolute;
+    top: 0;
+    right: 3px;
+    cursor: pointer;
+    width: auto;
+}
+
+.fsbutton { padding-top: 4px; display: inline-block; vertical-align: top; height: 18px;}
+
+.tools {
+    display: none;
+    position: absolute;
+    height: 22px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    bottom: 0;
+    color: black;
+}
+.vidplid { 
+   font-size: 16pt;
+}
+.vidDelay {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    text-align: left;
+}
+
+.vidDelay p {
+    margin: 0;
+}
+
+#tlcontainer {
+    padding-top: 15px;
+    position: relative;
+    width: 100%;
+    background: #aaa;
+}
+
+.namebox {
+    position: absolute;
+    background: #c8c8c8;
+    border-right: 3px solid #aaa;
+    width: 345px;
+    height: 25px;
+    text-align: center;
+}
+
+.namebox #title {
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0;
+    padding-top: 3px;
+    letter-spacing: 2.5px;
+    overflow: hidden;
+}
+
+#maintimeline {
+    background: black;
+    height: 25px;
+    cursor: crosshair;
+    border-bottom: 1px solid #666;
+}
+
+#timeloc {
+    float: left;
+    position: relative;
+    font-size: 14pt;
+    z-index: 0;
+    width: auto;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+#timepos {
+    bottom: 0;
+    position: absolute;
+    height: 1px;
+    width: 4px;
+    margin-left: -2px;
+    background: rgba(235,71,71,.5);
+    z-index: 999;
+}
+
+#timeDisplay {
+    display: none;
+    bottom: -23px;
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    background: #333;
+    color: #eee;
+    z-index: 999;
+    font-size: 8pt;
+    text-align: center;
+}
+
+#navbar {
+    background: #eee;
+    height: 5px;
+    cursor: crosshair;
+}
+
+#eventTitle {
+    position: relative;
+    left: 360px;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+    color: #333;
+    padding-top: 3px;
+    font-size: 12pt;
+    overflow: hidden;
+}
+
+#playRate {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 25px;
+    left: 0;
+    width: 116px;
+    background: #333;
+    border-bottom-right-radius: 5px;
+}
+
+#playRate input {
+    width: 90px;
+}
+
+#theRate { padding-left: 5px; color: #aaa; font-size: 9pt; }
+
+#controls {
+    position: absolute;
+    background: #aaa;
+}
+
+#controlOuter {
+    position: relative;
+    font-size: 8pt;
+    background: #c8c8c8;
+    height: 25px;
+    width: 116px;
+    border-right: 3px solid #aaa;
+    padding-left: 62px;
+}
+
+#controlOuter i{
+    padding-top: 3px;
+}
+
+#controlInner {
+    position: relative;
+    height: 100%;
+    padding-top: 1px;
+}
+
+#controls .button {
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 26px;
+    z-index: 3;
+    font-size: ;
+}
+
+
+
+
+#ready {
+    cursor: pointer;
+}
+
+.button:hover, #ready:hover {
+    color: green;
+}
+
+i { vertical-align: top; font-size: 14pt; display: inline-block; margin-right: 4px;}
+
+.icon-step-forward { margin-left: 6px;}
+
+.mute { padding-right: 6px; padding-left: 3px;}
+
+i.button:hover{
+    color: black;
+}
+
+.button#play {
+    display: none;
+}
+
+.showmeta {
+    font-size: 18pt;
+    cursor: pointer;
+}
+
+#map_canvas {
+    width: 200px;
+    height: 200px;
+}
+
+#meta {
+    background: rgba(85,85,85,0.95);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    z-index: 9999;
+    position: fixed;
+    top: 150px;
+    width: 200px;
+    height: 400px;
+    right: -210px;
+    overflow: hidden;
+    padding: 5px;
+    color: white;
+}
+
+#metadata {
+    font-size: 9pt;
+}
+
+#metaX {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 9pt;
+    cursor: pointer;
+    color: white;
+}
+
+#offset_panel {
+    color: white;
+}
+
+@keyframes blink {  
+    50% { background-color: white; }
+}
+@-webkit-keyframes blink {
+    50% { background-color: white; }
+}
+.blinkClass {
+    -webkit-animation: blink 0.5s linear 2;
+    -moz-animation: blink 0.5s linear 2;
+    -ms-animation: blink 0.5s linear 2;
+    -o-animation: blink 0.5s linear 2;
+    animation: blink 0.5s linear 2;
+} 

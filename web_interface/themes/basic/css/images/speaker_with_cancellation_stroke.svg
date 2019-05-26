@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg fill-opacity="1" xmlns:xlink="http://www.w3.org/1999/xlink" color-rendering="auto" color-interpolation="auto" stroke="black" text-rendering="auto" stroke-linecap="square" stroke-miterlimit="10" stroke-opacity="1" shape-rendering="auto" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" xmlns="http://www.w3.org/2000/svg" font-family="&apos;Dialog&apos;" font-style="normal" stroke-linejoin="miter" font-size="12" stroke-dashoffset="0" image-rendering="auto">
+  <!--Unicode Character 'SPEAKER WITH CANCELLATION STROKE' (U+1F507)-->
+  <defs id="genericDefs" />
+  <g>
+    <g>
+      <path d="M247.6406 305.7188 L235.8281 317.5312 L170.1562 251.8594 L170.1562 301.0781 L103.9219 239.9062 L62.1562 239.9062 L62.1562 157.5 L75.9375 157.5 L0 81.5625 L11.8125 69.75 L99.5625 157.5 L104.0625 157.5 L170.1562 96.4688 L170.1562 228.2344 L247.6406 305.7188 Z" stroke="none" />
+    </g>
+  </g>
+</svg>
