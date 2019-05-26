@@ -3,7 +3,7 @@
 
 class Daisy:
 	def __init__(self):
-		self.siteName = "daisy_shooter_localization" # the folder of your project under htdocs/
+		self.siteName = "Daisy_Shooter_Localization" # the folder of your project under htdocs/
 		self.listenPort = 21320
 		self.processLogPath = "processLog/" # get a log for every request
 		self.tmpPath = "tmp/"
@@ -36,6 +36,6 @@ class Daisy:
 
 		# modify the following for new deployment
 		self.safety = "daisyscretkey"
-		self.sfepPath = "/home/yourusername/daisy_shooter_localization/additional_software/sfep_mfcc/"
-		self.erCodePath = '/home/yourusername/daisy_shooter_localization/ml_code/AudioSync/'
-		self.gunshotCodePath = '/home/yourusername/daisy_shooter_localization/ml_code/GunshotDetection/'
+		self.sfepPath = "/home/yourusername/Daisy_Shooter_Localization/additional_software/sfep_mfcc/"
+		self.erCodePath = '/home/yourusername/Daisy_Shooter_Localization/ml_code/AudioSync/'
+		self.gunshotCodePath = '/home/yourusername/Daisy_Shooter_Localization/ml_code/GunshotDetection/'

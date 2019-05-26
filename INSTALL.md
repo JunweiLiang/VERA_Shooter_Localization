@@ -9,14 +9,14 @@ bash download_data_model.sh
 
 ## Step 2. Setting up the web server
 1. Install XAMPP 5.5 using the run file in additional_software/
-2. Import the initial database (web_interface/initial.sql) into new MySQL database called "daisy_shooter_localization"
+2. Import the initial database (web_interface/initial.sql) into new MySQL database called "Daisy_Shooter_Localization"
 3. Add localhost database user with username "daisy" and "mysqlpassword", or change web_interface/protected/config/main.php with your username and password
 4. Add your google map api key to the url at about line 1140 web_interface/themes/basic/views/application/cMainPage.php
 5. Move the web interface to the Apache Server document path:
 ```
-$ mv web_interface/ /home/yourusername/htdocs/daisy_shooter_localization
+$ mv web_interface/ /home/yourusername/htdocs/Daisy_Shooter_Localization
 ```
-6. Change all videos' "processPath" in database table D_videos to the correct absolute paths like "..htdocs/daisy_shooter_localization/assets/uploadFiles/232bb443e7dde01b96a36c1bf8fc12e9/..mp4". You can do it through the phpmyadmin web interface. (We keep the original copy of the uploaded videos in assets/uploadFiles/{unique_link_for_each_user} and a lower resolution version in assets/videos/ for faster streaming)
+6. Change all videos' "processPath" in database table D_videos to the correct absolute paths like "..htdocs/Daisy_Shooter_Localization/assets/uploadFiles/232bb443e7dde01b96a36c1bf8fc12e9/..mp4". You can do it through the phpmyadmin web interface. (We keep the original copy of the uploaded videos in assets/uploadFiles/{unique_link_for_each_user} and a lower resolution version in assets/videos/ for faster streaming)
 7. Change database table D_models gunshot detection model "modelpath" to the correct absolute path (..python_server/modelTraining/Updata_20161011_gunshot/Updata_20161011.model)
 8. chmod -R 755 for assets/
 9. chmod -R 777 for protected/runtime
@@ -50,7 +50,7 @@ $ find gunshot_classification_noisy_only_model/ -name "*.linear" | while read li
 ```
 $ python php_python.py
 ```
-2. Open a browser (we only tested Chrome) and [log in to the test account](http://127.0.0.1/daisy_shooter_localization/index.php/site/login?redirect=):
+2. Open a browser (we only tested Chrome) and [log in to the test account](http://127.0.0.1/Daisy_Shooter_Localization/index.php/site/login?redirect=):
 username: demo
 password: 123456
 
