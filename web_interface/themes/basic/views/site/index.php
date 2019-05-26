@@ -241,6 +241,7 @@ div.content div.intro{
 	<div class="mainTitle">The DAISY System - Shooter Localization from Videos</div>
 	<div class="authors">
 		<a style="text-decoration:none" href="https://www.cs.cmu.edu/~junweil/">Junwei Liang</a>,
+		<a style="text-decoration:none" href="https://www.cmu.edu/dietrich/history/people/faculty/aronson.html">Jay D. Aronson</a>,
 		<a href="https://www.cs.cmu.edu/~alex/">Alexander Hauptmann</a>
 	</div>
 	<div class="institutions">
