@@ -63,7 +63,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=daisy_shooter_localization',
+			'connectionString' => 'mysql:host=localhost;dbname=Daisy_Shooter_Localization',
 			'emulatePrepare' => true,
 			'username' => 'daisy',
 			'password' => 'mysqlpassword',

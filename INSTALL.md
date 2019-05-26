@@ -4,7 +4,7 @@ These are the dependencies I know so far. Please file an issue if you discover n
 
 ## Step 1. Download the additional stuff, example videos
 ```
-bash download_data_model.sh
+$ bash download_data_model.sh
 ```
 
 ## Step 2. Setting up the web server
