@@ -31,7 +31,7 @@ We introduce the DAISY system, enabled by established machine learning technique
   </p>
 </div>
 
-You can find more information/try out the shooter localization system at our [Project Page](https://daisy.cs.cmu.edu/).\
+You can find more information/try out the shooter localization system at our [Project Page](https://daisy.cs.cmu.edu/).
 
 ## Purpose of this repository
 This repository includes all the necessary code and models to host our [DAISY](https://daisy.cs.cmu.edu/) system on your local machine.
