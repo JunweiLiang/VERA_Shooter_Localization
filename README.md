@@ -5,6 +5,7 @@ This repository contains the code and models for the following paper:
 
 **[Technical Report of the DAISY System - Shooter Localization, Models, Interface, and Beyond]()** \
 [Junwei Liang](https://www.cs.cmu.edu/~junweil/),
+[Jay D. Aronson](https://www.cmu.edu/dietrich/history/people/faculty/aronson.html),
 [Alexander Hauptmann](https://www.cs.cmu.edu/~alex/)
 
 You can find more information/try out the shooter localization system at our [Project Page](https://daisy.cs.cmu.edu/).
