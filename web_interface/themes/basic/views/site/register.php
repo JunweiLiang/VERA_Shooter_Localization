@@ -75,6 +75,6 @@
 		<br/>
 		Please state your organization and the size of the video dataset you plan to run our system on. We will provide you with an account within two business days.
 		<br/>
-		<a class="btn btn-primary" href="<?php echo Yii::app()->baseUrl?>">Back to Main Page</a>
+		<a class="btn btn-primary" href="<?php echo Yii::app()->baseUrl?>/index.php">Back to Main Page</a>
 	</div>
 </div>
