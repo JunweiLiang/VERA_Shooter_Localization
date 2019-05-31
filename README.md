@@ -34,7 +34,7 @@ We introduce the DAISY system, enabled by established machine learning technique
 
 You can find more information/try out the shooter localization system at our [Project Page](https://daisy.cs.cmu.edu/).
 
-## Purpose of this repository
+## Purpose of This Repository
 This repository includes all the necessary code and models to host our [DAISY](https://daisy.cs.cmu.edu/) system on your local machine.
 Please report issues including:
 - Bugs/security concerns
@@ -48,6 +48,8 @@ Please report issues including:
 - `web_interface` includes all the code needed for the web interface. It is written in PHP with Yii framework (v1.3). There are some Chinese comments in the code since the code is from my earlier days as a website designer in China. File an issue if you have a question. To find the code for a URL, for example, for "..index.php/application/cGunshot?videoname=firstshots_36_mXwckuEw.mp4", the code is in web_interface/protected/controllers/ApplicationController.php and in function "actionCGunshot". The view code is in web_interface/themes/basic/views/application/cGunshot.php
 - `python_server` is the backend server we designed for PHP to communicate with machine learning code, which is usually written in PYTHON with Tensorflow. Currently we use shell calls within the python server so that we could change the machine learning code on the fly without restarting the backend server.
 - `ml_code` includes the inferencing code for gunshot detection, gun type classification and audio synchronization.
+
+To install the system on your machine you need to know about basic Linux Shell command, Apache server and MySQL database. To modify the web interface code, you will need to know PHP, Javascript with JQuery, html/css, and some knowledge of the Model/View/Controller (MVC) framework (Yii v1). I have tested the code on a CPU machine with Ubuntu 16.04.
 
 ## Installation
 Instructions for installing the system on your local machine can be [found here](INSTALL.md).
