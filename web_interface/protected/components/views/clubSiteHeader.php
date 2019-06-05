@@ -34,7 +34,7 @@
 	<div class="wrap">
 		<div id="headerLogoDiv">
 			<!--<img id="clubLogo" src="<?php echo Yii::app()->theme->baseUrl;?>/assets/images/officeLogo.png"></img>-->
-			Daisy
+			VERA
 		</div>
 		<div id="headerNavDiv">
 		<script type="text/javascript">

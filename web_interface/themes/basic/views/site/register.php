@@ -71,7 +71,7 @@
 </script>
 <div id="reg">
 	<div class="regForm">
-		Please send an email with the title "Account Request for the DAISY System" to junweil@cs.cmu.edu to request an account.
+		Please send an email with the title "Account Request for the VERA System" to junweil@cs.cmu.edu to request an account.
 		<br/>
 		Please state your organization and the size of the video dataset you plan to run our system on. We will provide you with an account within two business days.
 		<br/>

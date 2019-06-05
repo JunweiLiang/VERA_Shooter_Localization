@@ -850,7 +850,7 @@
 	<input class="loading" type="hidden"></input>
 	<input class="stopLoading" type="hidden"></input>
 	<a class="logo" title="home" href="<?php echo Yii::app()->baseUrl;?>/index.php/application">
-		DAISY<sup style="font-size:50%;vertical-align:super">Alpha</sup>
+		VERA<sup style="font-size:50%;vertical-align:super">Alpha</sup>
 	</a>
 	<span class="loading" style="display:none"></span>
 	<?php /*按钮，全部float*/ 

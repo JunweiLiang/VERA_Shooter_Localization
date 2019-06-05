@@ -271,7 +271,7 @@ $(document).delegate("div.loginModal > div.body > div.line > img.varifyImg","cli
 				<img src="<?php echo Yii::app()->theme->baseUrl;?>/img/logo.png"></img>
 			</div>
 			-->
-			<div class="title title1">DAISY<sup style="font-size:50%;vertical-align:super">Alpha</sup></div>
+			<div class="title title1">VERA<sup style="font-size:50%;vertical-align:super">Alpha</sup></div>
 		</div>
 		<div class="body">
 			<div class="line input username">

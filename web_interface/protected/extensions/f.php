@@ -71,7 +71,7 @@
 			return true;
 		}
 		public static $words2var = array(
-			"siteName" => "daisy_shooter_localization",
+			"siteName" => "VERA_Shooter_Localization",
 			"smtpType" => 1,
 			"smtpAddress" => "smtp.example.com",
 			"smtpAccount" => "example@example.com",
@@ -101,7 +101,7 @@
 			// ---- 04/2019 --- need all frames for synchronization
 			"videoFramePath" => "assets/videoFrames/", // videoname.mp4/%d.jpg 
 
-			"ppythonMD5key" => "daisyscretkey",
+			"ppythonMD5key" => "verascretkey",
 		);
 	}
 ?>

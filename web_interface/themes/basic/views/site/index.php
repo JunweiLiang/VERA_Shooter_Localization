@@ -232,13 +232,13 @@ div.content div.intro{
 			<a class="block" href="<?php echo Yii::app()->baseUrl;?>/index.php/site/login?redirect=<?php echo $redirect?>">Login</a>
 			<a class="block" href="<?php echo Yii::app()->baseUrl;?>/index.php/site/register">Register</a>
 		<?php }else{ ?>
-			<a class="block" href="<?php echo Yii::app()->baseUrl;?>/index.php/application">DAISY<sup style="font-size:50%;vertical-align:super">Alpha</sup></a>
+			<a class="block" href="<?php echo Yii::app()->baseUrl;?>/index.php/application">VERA<sup style="font-size:50%;vertical-align:super">Alpha</sup></a>
 		<?php } ?>
 	</div>
 </div>
 
 <div class="content main">
-	<div class="mainTitle">The DAISY System - Shooter Localization from Videos</div>
+	<div class="mainTitle">The Video Event Reconstruction and Analysis (VERA) System - Shooter Localization from Social Media Videos</div>
 	<div class="authors">
 		<a style="text-decoration:none" href="https://www.cs.cmu.edu/~junweil/">Junwei Liang</a>,
 		<a style="text-decoration:none" href="https://www.cmu.edu/dietrich/history/people/faculty/aronson.html">Jay D. Aronson</a>,
@@ -248,14 +248,14 @@ div.content div.intro{
 		Carnegie Mellon University
 	</div>
 	<div class="links" style="font-weight:bold">
-		<a class="btn btn-info" href="#">Technical Report</a>
+		<a class="btn btn-info" href="https://arxiv.org/abs/1905.13313">Technical Report</a>
 		&nbsp;&nbsp;&nbsp;
-		<a class="btn btn-info" href="<?php echo Yii::app()->baseUrl?>/documents/technical_report.bib" target="_blank">BibTex</a>
+		<a class="btn btn-info" href="#bib">BibTex</a>
 		&nbsp;&nbsp;&nbsp;
-		<a class="btn btn-info" href="https://github.com/JunweiLiang/Daisy_Shooter_Localization">Source Code/Models</a>
+		<a class="btn btn-info" href="https://github.com/JunweiLiang/VERA_Shooter_Localization">Source Code/Models</a>
 	</div>
 	<div class="intro" style="text-align:center;font-size:1.3em;line-height:50px;font-weight:bold;">
-		We introduce the DAISY system, enabled by established machine learning techniques and physics models, that can localize the shooter location only based on a couple of user-generated videos that capture the gunshot sound.
+		We introduce the VERA system, enabled by established machine learning techniques and physics models, that can localize the shooter location only based on a couple of user-generated videos that capture the gunshot sound.
 		<br/>
 		<img style="height:230px;margin-right:20px;"src="<?php echo Yii::app()->baseUrl;?>/documents/method1.png"></img>
 		<img style="height:230px;margin-right:0px;"src="<?php echo Yii::app()->baseUrl;?>/documents/method2.png"></img>
@@ -263,19 +263,42 @@ div.content div.intro{
 		We estimate shooter distance for each camera and estimate shooter direction for each pair of cameras. 
 	</div>
 	<div class="demoVideo" style="text-align:center">
-		<iframe width="800" height="600" src="https://www.youtube.com/embed/z0KFTXg5sqI" frameborder="0" allowfullscreen></iframe>
+		<iframe width="450" height="320" src="https://www.youtube.com/embed/z0KFTXg5sqI" frameborder="0" allowfullscreen></iframe>
+		<iframe width="450" height="320" src="https://www.youtube.com/embed/6q7LqqzrY2I" frameborder="0" allowfullscreen></iframe>
 		<br/>
 		<span style="font-size:1.2em;font-weight:bold">Demo Video</span>		
 	</div>
 	<div class="resources">
 		<ol style="font-size:1.2em;">
-			<li>For full technical details, please refer to our <a style="color:#49afcd" href="#">technical report</a>. Please report on Github if you find any detail missing in the report.</li>
-			<li>You can also download this explanatory <a style="color:#49afcd" href="https://drive.google.com/file/d/1Ieo3ydVUEmoZ1_Q-KUbr-GSwQpt6mUpg/view?usp=sharing">slides</a>.</li>
-			<li>We have released all of our source code on <a style="color:#49afcd" href="#">Github</a>. We encourage researchers and engineers to help continue improving this system.</li>
+			<li>For full technical details, please refer to our <a style="color:#49afcd" href="https://arxiv.org/abs/1905.13313">technical report</a>. Please report on Github if you find any detail missing in the report.</li>
+			<li>We have released all of our source code on <a style="color:#49afcd" href="https://github.com/JunweiLiang/VERA_Shooter_Localization">Github</a>. We encourage researchers and engineers to help continue improving this system.</li>
 		</ol>
 		<div class="citations" style="font-size:1.2em;">
+			<a name="bib"></a>
 			If you find this system helpful to your project/report/research, please cite the following papers:
-			<textarea style="width:80%;height:300px;" disabled>aa</textarea>
+			<textarea style="width:90%;height:480px;" disabled>@article{liang2019vera,
+  	title={Technical Report of the Video Event Reconstruction and Analysis (VERA) System - Shooter Localization, Models, Interface, and Beyond},
+  	author={Liang, Junwei and Aronson, Jay D. and Hauptmann, Alexander},
+  	journal={arXiv preprint arXiv:1905.13313},
+  	year={2019}
+}
+@inproceedings{liang2017synchronization,
+  title={Synchronization for multi-perspective videos in the wild},
+  author={Liang, Junwei and Huang, Poyao and Chen, Jia and Hauptmann, Alexander},
+  booktitle={2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1592--1596},
+  year={2017},
+  organization={IEEE}
+}
+@inproceedings{liang2017temporal,
+  title={Temporal localization of audio events for conflict monitoring in social media},
+  author={Liang, Junwei and Jiang, Lu and Hauptmann, Alexander},
+  booktitle={2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1597--1601},
+  year={2017},
+  organization={IEEE}
+}
+			</textarea>
 		</div>
 	</div>
 </div>
@@ -320,6 +343,9 @@ div.content div.intro{
 	<a name="log"></a>
 	<div class="title">Release Log</div>
 	<ul>
+		<li>
+			<span class="title"> [06/2019]: Code and model released.</span> 
+		</li>
 		<li>
 			<span class="title"> [05/2019]: Alpha version released.</span> 
 		</li>
