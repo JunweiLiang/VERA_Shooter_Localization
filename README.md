@@ -3,7 +3,7 @@
 This repository contains the code and models for the following paper:
 
 
-**[Technical Report of the Video Event Reconstruction and Analysis (VERA) System - Shooter Localization, Models, Interface, and Beyond]()** \
+**[Technical Report of the Video Event Reconstruction and Analysis (VERA) System - Shooter Localization, Models, Interface, and Beyond](https://arxiv.org/abs/1905.13313)** \
 [Junwei Liang](https://www.cs.cmu.edu/~junweil/),
 [Jay D. Aronson](https://www.cmu.edu/dietrich/history/people/faculty/aronson.html),
 [Alexander Hauptmann](https://www.cs.cmu.edu/~alex/)
