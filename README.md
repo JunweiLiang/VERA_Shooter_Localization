@@ -49,7 +49,8 @@ We introduce the Video Event Reconstruction and Analysis (VERA) system, enabled 
       <img src="images/method2.png" height="200px" />
   </div>
   <p style="font-weight:bold;font-size:1.2em;">
-  	<a href="http://www.youtube.com/watch?feature=player_embedded&v=z0KFTXg5sqI" target="_blank">Demo Video </a>
+  	<a href="http://www.youtube.com/watch?feature=player_embedded&v=z0KFTXg5sqI" target="_blank">Demo Video</a> &nbsp; &nbsp;
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=6q7LqqzrY2I" target="_blank">Explanatory Video</a>
   </p>
 </div>
 
