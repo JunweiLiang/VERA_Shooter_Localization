@@ -276,7 +276,7 @@ div.content div.intro{
 		<div class="citations" style="font-size:1.2em;">
 			<a name="bib"></a>
 			If you find this system helpful to your project/report/research, please cite the following papers:
-			<textarea style="width:90%;height:480px;" disabled>@article{liang2019vera,
+			<textarea style="width:90%;height:480px;cursor: text;" disabled>@article{liang2019vera,
   	title={Technical Report of the Video Event Reconstruction and Analysis (VERA) System - Shooter Localization, Models, Interface, and Beyond},
   	author={Liang, Junwei and Aronson, Jay D. and Hauptmann, Alexander},
   	journal={arXiv preprint arXiv:1905.13313},
