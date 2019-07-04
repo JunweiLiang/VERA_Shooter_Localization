@@ -14,7 +14,7 @@ unzip liblinear-2.30.zip
 tar -zxvf sfep_mfcc.tgz
 # the example videos 
 tar -zxvf assets.tgz
-mv assets/ ../web_interface
+mv assets/ ../../web_interface/
 
 # clean up
 rm -rf assets.tgz liblinear-2.30.zip sfep_mfcc.tgz
