@@ -8,9 +8,17 @@ This repository contains the code and models for the following paper:
 [Jay D. Aronson](https://www.cmu.edu/dietrich/history/people/faculty/aronson.html),
 [Alexander Hauptmann](https://www.cs.cmu.edu/~alex/)
 
+*Our work has been accepted by [ACM Multimedia 2019 - Open Source Software Competition](https://www.acmmm.org/2019/call-for-open-source-software-competition/) with very positive reviews (3 Accepts).*
+
 You can find more information/try out the shooter localization system at our [Project Page](https://vera.cs.cmu.edu/). Also, check out our 3D Reconstruction demo [here](https://vera.cs.cmu.edu/VERA_3D_Reconstruction).
 
 ## Introduction
+<div align="center">
+  <div style="">
+      <img src="images/VERA_Shooter_Localization.gif" height="300px" />
+  </div>
+</div>
+
 We introduce the Video Event Reconstruction and Analysis (VERA) system, enabled by established machine learning techniques and physics models, that can localize the shooter location only based on a couple of user-generated videos that capture the gunshot sound. 
 
 

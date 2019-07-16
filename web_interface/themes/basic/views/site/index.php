@@ -257,6 +257,8 @@ div.content div.intro{
 		<a class="btn btn-success" href="VERA_3D_Reconstruction/">3D Reconstruction</a>
 	</div>
 	<div class="intro" style="text-align:center;font-size:1.2em;line-height:50px;font-weight:bold;">
+		<img src="<?php echo Yii::app()->theme->baseUrl?>/img/VERA_Shooter_Localization.gif" style="width:600px"></img>
+		<br/>
 		We introduce the VERA system, enabled by established machine learning techniques and physics models, that can localize the shooter location only based on a couple of user-generated videos that capture the gunshot sound.
 		<br/>
 		<img style="height:230px;margin-right:20px;"src="<?php echo Yii::app()->baseUrl;?>/documents/method1.png"></img>
