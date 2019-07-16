@@ -15,7 +15,7 @@ You can find more information/try out the shooter localization system at our [Pr
 ## Introduction
 <div align="center">
   <div style="">
-      <img src="images/VERA_Shooter_Localization.gif" height="300px" />
+      <img src="images/VERA_Shooter_Localization.gif" height="400px" />
   </div>
 </div>
 
