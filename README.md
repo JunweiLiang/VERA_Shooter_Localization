@@ -8,7 +8,7 @@ This repository contains the code and models for the following paper:
 [Jay D. Aronson](https://www.cmu.edu/dietrich/history/people/faculty/aronson.html),
 [Alexander Hauptmann](https://www.cs.cmu.edu/~alex/)
 
-*Our work has been accepted by [ACM Multimedia 2019 - Open Source Software Competition](https://www.acmmm.org/2019/call-for-open-source-software-competition/) with very positive reviews (3 Accepts).*
+*Our work received **Best Demo Award** at [CBMI 2019](http://cbmi2019.org/).*
 
 You can find more information/try out the shooter localization system at our [Project Page](https://vera.cs.cmu.edu/). Also, check out our 3D Reconstruction demo [here](https://vera.cs.cmu.edu/VERA_3D_Reconstruction).
 
@@ -19,7 +19,7 @@ You can find more information/try out the shooter localization system at our [Pr
   </div>
 </div>
 
-We introduce the Video Event Reconstruction and Analysis (VERA) system, enabled by established machine learning techniques and physics models, that can localize the shooter location only based on a couple of user-generated videos that capture the gunshot sound. 
+We introduce the Video Event Reconstruction and Analysis (VERA) system, enabled by established machine learning techniques and physics models, that can localize the shooter location only based on a couple of user-generated videos that capture the gunshot sound.
 
 
 <div align="center">
@@ -36,11 +36,13 @@ We introduce the Video Event Reconstruction and Analysis (VERA) system, enabled 
 If you find this system/code useful in your research/report then please cite
 
 ```
-@article{liang2019vera,
-    title={Technical Report of the Video Event Reconstruction and Analysis (VERA) System - Shooter Localization, Models, Interface, and Beyond},
-    author={Liang, Junwei and Aronson, Jay D. and Hauptmann, Alexander},
-    journal={arXiv preprint arXiv:1905.13313},
-    year={2019}
+@inproceedings{liang2019shooter,
+  title={Shooter Localization Using Social Media Videos},
+  author={Liang, Junwei and Aronson, Jay D and Hauptmann, Alexander},
+  booktitle={Proceedings of the 27th ACM International Conference on Multimedia},
+  pages={2280--2283},
+  year={2019},
+  organization={ACM}
 }
 @inproceedings{liang2017synchronization,
   title={Synchronization for multi-perspective videos in the wild},
